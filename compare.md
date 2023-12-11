@@ -29,24 +29,36 @@ Dutch Auction sales                                  | :x:                      
 Royalties                                            | :white_check_mark:       | :heavy_check_mark: :warning: (10)      | :white_check_mark:                     |
 Adjustable royalties                                 | :x:                      | :x:                                    | :white_check_mark:                     |
 Marketplace fees                                     | :x:                      | :x:                                    | :white_check_mark:                     |
+Shared Marketplace fees                              | :x:                      | :x:                                    | :heavy_check_mark: (11)                |
 Non-fungible tokens                                  | :white_check_mark:       | :white_check_mark:                     | :white_check_mark:                     |
 Fixed issuance Poly-fungible tokens                  | :white_check_mark:       | :x:                                    | :white_check_mark:                     |
 Instant minting enforced tokens                      | :x:                      | :x:                                    | :white_check_mark:                     |
 Guards limited tokens                                | :x:                      | :white_check_mark:                     | :white_check_mark:                     |
 Blacklistable tokens                                 | :x:                      | :x:                                    | :white_check_mark:                     |
 Lending protocols <br> Custody marketplaces support  | :x:                      | :x:                                    | :white_check_mark:                     |
-Multiple sellers                                     | :x:                      | :x:                                    | :white_check_mark: (11)                |
-Currencies whitelist by creator                      | :x:                      | :x:                                    | :white_check_mark: (11)                |
-Lottery sale                                         | :x:                      | :x:                                    | :white_check_mark: (11) :warning: (12) |
+Multiple sellers                                     | :x:                      | :x:                                    | :white_check_mark: (12)                |
+Currencies whitelist by creator                      | :x:                      | :x:                                    | :white_check_mark: (12)                |
+Lottery sale                                         | :x:                      | :x:                                    | :white_check_mark: (12) :warning: (13) |
+Smart buyer account supports (collections bids ... ) | :x:                      | :x:                                    | :heavy_check_mark: (14)                |
 
 ## Extendability
 
   ~                                                            | Marmalade V1             | Marmalade V2                           | Marmalade NG                |
 ---------------------------------------------------------------|--------------------------|--------------------------------------  |-----------------------------|
-Custom sales process added by the creator (policies)           | :heavy_check_mark: (13)  | :heavy_check_mark: :bangbang: (14)     | :white_check_mark:          |
-Sales process added by the Marmalade admins                    | :x:                      | :white_check_mark: (15)                | :white_check_mark: (16)     |
+Custom sales process added by the creator (policies)           | :heavy_check_mark: (15)  | :heavy_check_mark: :bangbang: (16)     | :white_check_mark:          |
+Sales process added by the Marmalade admins                    | :x:                      | :white_check_mark: (17)                | :white_check_mark: (18)     |
 Custom tokens/sales management added by the creator (policies) | :white_check_mark:       | :white_check_mark:                     | :white_check_mark:          |
-Custom tokens/sales management proposed by the admins          | :x:                      | :x:                                    | :white_check_mark: (16)     |
+Custom tokens/sales management proposed by the admins          | :x:                      | :x:                                    | :white_check_mark: (18)     |
+
+
+## Bridging features
+
+  ~                                                            | Marmalade V1             | Marmalade V2                           | Marmalade NG                |
+---------------------------------------------------------------|--------------------------|--------------------------------------  |-----------------------------|
+Transfer tokens from Marmalade V1                              | :x:                      | :x:                                    | :white_check_mark:          |
+X-chain transfers                                              | :x:                      | :x:                                    | :white_check_mark:          |
+Transfers between private Marmalade instances                  | :x:                      | :x:                                    | :white_check_mark:          |
+Tokens upgrade                                                 | :x:                      | :x:                                    | :white_check_mark:          |
 
 
 ## Notes
@@ -71,14 +83,18 @@ Custom tokens/sales management proposed by the admins          | :x:            
 
 (10) : Royalities can only be paid in KDA
 
-(11) : Support through extra policies
+(11) : Work in progress
 
-(12) : Possibly unsafe. Avoid for high value tokens
+(12) : Support through extra policies
 
-(13) : Everything must be implemented by the creator
+(13) : Possibly unsafe. Avoid for high value tokens
 
-(14) : Policies can access the quote system => and can't use royalties
+(14) : Work in progress
 
-(15) : Tokens creator can't refuse newly approved (by who ?) sales mechanisms
+(15) : Everything must be implemented by the creator
 
-(16) : Tokens creators can refuse all new mechanisms, or blacklist them one by one (Extra policies)
+(16) : Policies can access the quote system => and can't use royalties
+
+(17) : Tokens creator can't refuse newly approved (by who ?) sales mechanisms
+
+(18) : Tokens creators can refuse all new mechanisms, or blacklist them one by one (Extra policies)
