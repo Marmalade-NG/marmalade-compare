@@ -28,27 +28,27 @@ Auction sales                                        | :x:                      
 Dutch Auction sales                                  | :x:                      | :x:                                    | :white_check_mark:                     |
 Royalties                                            | :white_check_mark:       | :heavy_check_mark: :warning: (10)      | :white_check_mark:                     |
 Adjustable royalties                                 | :x:                      | :x:                                    | :white_check_mark:                     |
-Marketplace fees                                     | :x:                      | :x:                                    | :white_check_mark:                     |
-Shared Marketplace fees                              | :x:                      | :x:                                    | :heavy_check_mark: (11)                |
+Marketplace fees                                     | :x:                      | :heavy_check_mark: (11) :warning: (12) | :white_check_mark:                     |
+Shared Marketplace fees                              | :x:                      | :x:                                    | :white_check_mark:                     |
 Non-fungible tokens                                  | :white_check_mark:       | :white_check_mark:                     | :white_check_mark:                     |
 Fixed issuance Poly-fungible tokens                  | :white_check_mark:       | :x:                                    | :white_check_mark:                     |
 Instant minting enforced tokens                      | :x:                      | :x:                                    | :white_check_mark:                     |
 Guards limited tokens                                | :x:                      | :white_check_mark:                     | :white_check_mark:                     |
 Blacklistable tokens                                 | :x:                      | :x:                                    | :white_check_mark:                     |
 Lending protocols <br> Custody marketplaces support  | :x:                      | :x:                                    | :white_check_mark:                     |
-Multiple sellers                                     | :x:                      | :x:                                    | :white_check_mark: (12)                |
-Currencies whitelist by creator                      | :x:                      | :x:                                    | :white_check_mark: (12)                |
-Lottery sale                                         | :x:                      | :x:                                    | :white_check_mark: (12) :warning: (13) |
-Smart buyer account supports (collections bids ... ) | :x:                      | :x:                                    | :heavy_check_mark: (14)                |
+Multiple sellers                                     | :x:                      | :x:                                    | :white_check_mark: (13)                |
+Currencies whitelist by creator                      | :x:                      | :x:                                    | :white_check_mark: (13)                |
+Lottery sale                                         | :x:                      | :x:                                    | :white_check_mark: (13) :warning: (14) |
+Smart buyer account supports (collections bids ... ) | :x:                      | :x:                                    | :heavy_check_mark: (15)                |
 
 ## Extendability
 
   ~                                                            | Marmalade V1             | Marmalade V2                           | Marmalade NG                |
 ---------------------------------------------------------------|--------------------------|--------------------------------------  |-----------------------------|
-Custom sales process added by the creator (policies)           | :heavy_check_mark: (15)  | :heavy_check_mark: :bangbang: (16)     | :white_check_mark:          |
-Sales process added by the Marmalade admins                    | :x:                      | :white_check_mark: (17)                | :white_check_mark: (18)     |
+Custom sales process added by the creator (policies)           | :heavy_check_mark: (16)  | :heavy_check_mark: :bangbang: (17)     | :white_check_mark:          |
+Sales process added by the Marmalade admins                    | :x:                      | :white_check_mark: (18)                | :white_check_mark: (19)     |
 Custom tokens/sales management added by the creator (policies) | :white_check_mark:       | :white_check_mark:                     | :white_check_mark:          |
-Custom tokens/sales management proposed by the admins          | :x:                      | :x:                                    | :white_check_mark: (18)     |
+Custom tokens/sales management proposed by the admins          | :x:                      | :x:                                    | :white_check_mark: (19)     |
 
 
 ## Bridging features
@@ -85,16 +85,18 @@ Tokens upgrade                                                 | :x:            
 
 (11) : Work in progress
 
-(12) : Support through extra policies
+(12) : Potentially unsafe. Does not allow Marketplace to enforce the fee payment. 
 
-(13) : Possibly unsafe. Avoid for high value tokens
+(13) : Support through extra policies => Not released on Testnet
 
-(14) : Work in progress
+(14) : Possibly unsafe. Avoid for high value tokens
 
-(15) : Everything must be implemented by the creator
+(15) : Work in progress
 
-(16) : Policies can access the quote system => and can't use royalties
+(16) : Everything must be implemented by the creator
 
-(17) : Tokens creator can't refuse newly approved (by who ?) sales mechanisms
+(17) : Policies can access the quote system => and can't use royalties
 
-(18) : Tokens creators can refuse all new mechanisms, or blacklist them one by one (Extra policies)
+(18) : Tokens creator can't refuse newly approved (by who ?) sales mechanisms
+
+(19) : Tokens creators can refuse all new mechanisms, or blacklist them one by one (Extra policies)
