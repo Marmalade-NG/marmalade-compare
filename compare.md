@@ -5,8 +5,8 @@
   ~                       | Marmalade V1             | Marmalade V2            | Marmalade NG            |
 --------------------------|--------------------------|-------------------------|-------------------------|
 Deployed - Tesnet         | :white_check_mark:       | :white_check_mark:      | :white_check_mark:      |
-Deployed - Mainnet        | :white_check_mark:       | :white_check_mark:      | :x:                     |
-Nice website / video      | :x:                      | :white_check_mark:      | :x:                     |
+Deployed - Mainnet        | :white_check_mark:       | :white_check_mark:      | :white_check_mark:      |
+Nice website / video      | :x:                      | :white_check_mark:      | :x: (WIP                |
 Keys / Administration     | Controled by Kadena (1)  | Controled by Kadena (1) | Community Multi-sig     |
 Code quality              | Good :white_check_mark:  | Bad :x: (2)             | Good :white_check_mark: |
 Security                  | :white_check_mark:       | :x: :bangbang: (3)      | :heavy_check_mark: (4)  |
@@ -28,7 +28,7 @@ Auction sales                                        | :x:                      
 Dutch Auction sales                                  | :x:                      | :x:                                    | :white_check_mark:                     |
 Royalties                                            | :white_check_mark:       | :heavy_check_mark: :warning: (10)      | :white_check_mark:                     |
 Adjustable royalties                                 | :x:                      | :x:                                    | :white_check_mark:                     |
-Marketplace fees                                     | :x:                      | :heavy_check_mark: (11) :warning: (12) | :white_check_mark:                     |
+Marketplace fees                                     | :x:                      | :heavy_check_mark: :warning: (12)      | :white_check_mark:                     |
 Shared Marketplace fees                              | :x:                      | :x:                                    | :white_check_mark:                     |
 Non-fungible tokens                                  | :white_check_mark:       | :white_check_mark:                     | :white_check_mark:                     |
 Fixed issuance Poly-fungible tokens                  | :white_check_mark:       | :x:                                    | :white_check_mark:                     |
@@ -82,8 +82,6 @@ Tokens upgrade                                                 | :x:            
 (9) : Only works in KDA
 
 (10) : Royalities can only be paid in KDA
-
-(11) : Work in progress
 
 (12) : Potentially unsafe. Does not allow Marketplace to enforce the fee payment. 
 
