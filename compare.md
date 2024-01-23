@@ -65,23 +65,23 @@ Tokens upgrade                                                 | :x:            
 
 (1) : Key management is unclear: who exactly own the keys ? Who has the ability to upgrade code, and manipulate the ledger ?
 
-(2) : Dead code, Typechecker results ignored, code difficult to read and to maintain. Complex control flow.
+(2) : Dead code, Typechecker results ignored, code difficult to read and to maintain. Complex control flow. Recommendations and best practices from the Pact team not followed.
 
 (3) : More than 8 serious issues already discovered
 
-(4) : A single serious issues has been discovered
+(4) : A single serious issue has been discovered
 
 (5) : Tokens identifier can't be the same on different chains, preventing X-chains transfers
 
 (6) : Only works in KDA in case of enabled royalty
 
-(7) : Lack of functionnality, could lead to unfair sales. (no minimum increment, no time extension)
+(7) : Lack of functionality, could lead to unfair sales. (no minimum increment, no time extension)
 
 (8) : Some cases may lock tokens / or make buyers loose funds
 
 (9) : Only works in KDA
 
-(10) : Royalities can only be paid in KDA
+(10) : Royalties can only be paid in KDA
 
 (12) : Potentially unsafe. Does not allow Marketplace to enforce the fee payment. 
 
