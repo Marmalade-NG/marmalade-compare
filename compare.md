@@ -7,7 +7,7 @@
 Deployed - Tesnet         | :white_check_mark:       | :white_check_mark:      | :white_check_mark:      |
 Deployed - Mainnet        | :white_check_mark:       | :white_check_mark:      | :white_check_mark:      |
 Nice website / video      | :x:                      | :white_check_mark:      | :x: (WIP                |
-Keys / Administration     | Controled by Kadena (1)  | Controled by Kadena (1) | Community Multi-sig     |
+Keys / Administration     | Controlled by Kadena (1) | Controlled by Kadena (1)| Community Multi-sig     |
 Code quality              | Good :white_check_mark:  | Bad :x: (2)             | Good :white_check_mark: |
 Security                  | :white_check_mark:       | :x: :bangbang: (3)      | :heavy_check_mark: (4)  |
 Private instances support | :white_check_mark:       | :x:                     | :white_check_mark:      |
@@ -65,13 +65,13 @@ Tokens upgrade                                                 | :x:            
 
 (1) : Key management is unclear: who exactly own the keys ? Who has the ability to upgrade code, and manipulate the ledger ?
 
-(2) : Dead code, Typechecker results ignored, code difficult to read and to maintain. Complex control flow. Recommendations and best practices from the Pact team not followed.
+(2) : Dead code, Typechecker results ignored, code difficult to read and to maintain. Complex control flow. Recommendations and guidances advised by the Pact team not followed.
 
 (3) : More than 8 serious issues already discovered
 
 (4) : A single serious issue has been discovered
 
-(5) : Tokens identifier can't be the same on different chains, preventing X-chains transfers
+(5) : Tokens identifiers can't be the same on different chains, preventing X-chains transfers
 
 (6) : Only works in KDA in case of enabled royalty
 
